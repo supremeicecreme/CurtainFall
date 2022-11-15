@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IceCore Landing</title>
+</head>
+<body onload="Start()">
+    <section id="time-date">
+        <span id="date"></span>
+        <span id="clock"></span>
+        <span id="greeting"></span>
+    </section>
+    <section class="search-area">
+        <form action="https://google.com/search" method="get">
+            <label for="search" hidden>Search: </label><input type="search" name="q" id="search-bar" placeholder="Search Google" autofocus>
+        </form>
+    </section>
+    <section class="link-area">
+        <h2>Main Links</h2>
+        <div class="links">
+            <a href="https://icecore.me">
+                <span class="link-icon material-symbols-outlined">language</span>
+                <span class="link-text">IceCore Website</span>
+            </a>
+            <a href="https://www.echodelta.me">
+                <span class="link-icon material-symbols-outlined">person</span>
+                <span class="link-text">Personal Website</span>
+            </a>
+            <a href="https://www.scratchradio.co.uk">
+                <span class="link-icon material-symbols-outlined">radio</span>
+                <span class="link-text">Scratch Radio</span>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>by IceCore Technologies</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

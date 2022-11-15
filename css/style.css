@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+:root {
+    --ic-dark: #2C2E30;
+    --ic-light: #FCF8F9;
+    --ic-primary: #E3292A;
+    --ic-primary-hover: #E95353;
+    --ic-primary-deep: #6C0E0E;
+    --ic-secondary: #12263A;
+    --ic-secondary-hover: #1a354f;
+    --ic-light-grey: #c7c7c7;
+}
+
+body {
+    margin: 0px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+#time-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: var(--ic-primary-deep);
+    color: var(--ic-light);
+    margin-bottom: 0px;
+}
+
+#date {
+    font-size: 32pt;
+}
+
+#clock {
+    font-size: 86pt;
+    line-height: 86pt;
+}
+
+#greeting {
+    font-size: 16pt;
+}
+
+.search-area {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 8em;
+    padding-right: 8em;
+    background-color: var(--ic-primary);
+}
+
+#search-bar {
+    height: 2.5em;
+    width: 100%;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.link-area {
+    background-color: var(--ic-light);
+    margin: 0px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.secondary {
+    background-color: var(--ic-secondary);
+    color: var(--ic-light);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--ic-secondary);
+    color: var(--ic-light);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.links a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 1.5em;
+    margin: auto;
+    width: 100%;
+}
+
+.links a:hover {
+    background-color: var(--ic-secondary-hover);
+    color: var(--ic-primary);
+}
+
+.link-text {
+    color: var(--ic-light);
+}
+
+.link-icon {
+    height: 1em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--ic-dark);
+    color: var(--ic-light);
+    padding: 1em 8em;
+}
