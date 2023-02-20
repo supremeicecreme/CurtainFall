@@ -26,7 +26,7 @@ body {
     align-items: center;
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: var(--ic-primary-deep);
+    background-color: var(--ic-secondary);
     color: var(--ic-light);
     margin-bottom: 0px;
 }
@@ -41,23 +41,24 @@ body {
 }
 
 #greeting {
-    font-size: 16pt;
+    font-size: 24pt;
 }
 
 .search-area {
+    margin-top: -2em;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 8em;
     padding-right: 8em;
-    background-color: var(--ic-primary);
 }
 
 #search-bar {
-    height: 2.5em;
+    height: 3em;
     width: 100%;
-    border-radius: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    border-radius: 0.75em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
 .link-area {
@@ -76,26 +77,29 @@ body {
 .links {
     display: flex;
     justify-content: space-between;
-    background-color: var(--ic-secondary);
     color: var(--ic-light);
-    border-radius: 0.5em;
-    overflow: hidden;
 }
 
 .links a {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0.75em;
     text-decoration: none;
+    background-color: var(--ic-secondary);
+    box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, 0.3);
     color: inherit;
     padding: 1.5em;
-    margin: auto;
-    width: 100%;
+    max-width: 18em;
+    min-width: 20%;
+    transition: margin ease 0.2s;
 }
 
 .links a:hover {
     background-color: var(--ic-secondary-hover);
     color: var(--ic-primary);
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .link-text {
@@ -110,6 +114,8 @@ body {
 h2 {
     margin-top: 0px;
     text-align: center;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 footer {
