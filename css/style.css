@@ -8,13 +8,16 @@
     --ic-primary-hover: #E95353;
     --ic-primary-deep: #6C0E0E;
     --ic-secondary: #12263A;
+    --ic-secondary-background: #0E1F2F;
     --ic-secondary-hover: #1a354f;
-    --ic-light-grey: #c7c7c7;
+    --ic-light-grey: #e6e6e6;
 }
 
 body {
     margin: 0px;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: var(--ic-light-grey);
+    background-color: var(--ic-secondary-background);
 }
 
 #time-date {
@@ -58,7 +61,6 @@ body {
 }
 
 .link-area {
-    background-color: var(--ic-light);
     margin: 0px;
     padding-top: 2em;
     padding-bottom: 2em;
