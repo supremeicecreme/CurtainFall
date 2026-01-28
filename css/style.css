@@ -82,6 +82,8 @@ body {
 
 .links {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
     justify-content: space-between;
     color: var(--ic-light);
 }
@@ -97,19 +99,19 @@ body {
     color: inherit;
     padding: 1.5em;
     max-width: 18em;
-    min-width: 20%;
-    transition: margin ease 0.2s;
+    min-width: 15%;
+    transition: all ease 0.2s;
 }
 
 .links a:hover {
     background-color: var(--ic-secondary-hover);
     color: var(--ic-primary);
-    margin-top: -10px;
-    margin-bottom: 10px;
+    transform: scale(1.05) translateY(-10px);
 }
 
 .link-text {
     color: var(--ic-light);
+    max-width: 100%;
 }
 
 .link-icon {
